@@ -1,12 +1,9 @@
 <!--
-  ~ Copyright (c) 2023-2024 Datalayer, Inc.
+  ~ Originally developed by Datalayer, Inc.
+  ~ Forked and enhanced by Joseph Lin
   ~
   ~ BSD 3-Clause License
 -->
-
-[![Datalayer](https://assets.datalayer.tech/datalayer-25.svg)](https://datalayer.io)
-
-[![Become a Sponsor](https://img.shields.io/static/v1?label=Become%20a%20Sponsor&message=%E2%9D%A4&logo=GitHub&style=flat&color=1ABC9C)](https://github.com/sponsors/datalayer)
 
 # 🚀 Jupyter MCP Server
 
@@ -16,6 +13,17 @@
 [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 > **A comprehensive Model Context Protocol (MCP) server that bridges AI agents with Jupyter notebooks, enabling real-time code execution, visualization generation, and advanced image extraction capabilities.**
+
+## 🎯 **About This Project**
+
+This project is a fork and enhancement of the original Jupyter MCP Server developed by [Datalayer, Inc.](https://github.com/datalayer/jupyter-mcp-server). Special thanks to the Datalayer team for their foundational work on integrating Jupyter with the Model Context Protocol ecosystem.
+
+**Key Enhancements in This Fork:**
+- Improved documentation and setup process
+- Enhanced error handling and robustness
+- Additional example configurations
+- Streamlined installation and configuration
+- Updated dependencies and compatibility
 
 ## 🌟 **Key Features**
 
@@ -90,7 +98,7 @@ graph TD
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/jupyter-mcp-server.git
+   git clone https://github.com/JosephLin11/jupyter-mcp-server.git
    cd jupyter-mcp-server
    ```
 
@@ -111,7 +119,7 @@ graph TD
      "mcpServers": {
        "jupyter": {
          "command": "python",
-         "args": ["/Users/joseph/Documents/personal_projects/jupyter-mcp-server/src/jupyter_mcp_server.py"]
+         "args": ["/path/to/your/jupyter-mcp-server/src/jupyter_mcp_server.py"]
        }
      }
    }
@@ -266,6 +274,7 @@ This project is licensed under the BSD 3-Clause License - see the [LICENSE](LICE
 
 ## 🌟 **Acknowledgments**
 
+- **Original Development**: [Datalayer, Inc.](https://github.com/datalayer) for creating the foundational Jupyter MCP Server
 - Inspired by the Model Context Protocol ecosystem
 - Built upon the robust Jupyter Server API
 - Enhanced with ideas from various MCP implementations
@@ -273,9 +282,11 @@ This project is licensed under the BSD 3-Clause License - see the [LICENSE](LICE
 
 ## 📧 **Contact**
 
-**Joseph** - [Your GitHub](https://github.com/yourusername)
+**Joseph Lin** - [GitHub](https://github.com/JosephLin11)
 
-Project Link: [https://github.com/yourusername/jupyter-mcp-server](https://github.com/yourusername/jupyter-mcp-server)
+Project Link: [https://github.com/JosephLin11/jupyter-mcp-server](https://github.com/JosephLin11/jupyter-mcp-server)
+
+Original Project: [https://github.com/datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server)
 
 ---
 
@@ -284,5 +295,7 @@ Project Link: [https://github.com/yourusername/jupyter-mcp-server](https://githu
 **⭐ Star this repository if you find it useful! ⭐**
 
 *Built with ❤️ for the AI and data science community*
+
+*Originally developed by Datalayer, enhanced and maintained by Joseph Lin*
 
 </div>
